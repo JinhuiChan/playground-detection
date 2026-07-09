@@ -1,0 +1,22 @@
+# 模型checkpoint (太大，可重新训练生成)
+checkpoints/
+
+# 日志
+logs/
+*.log
+
+# Python缓存
+__pycache__/
+*.pyc
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时脚本
+_run_train.sh
+run_cmd.sh
+run_train.sh
+
+# 训练启动器生成的临时文件
+launcher.py
